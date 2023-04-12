@@ -116,16 +116,16 @@ describe("Test Products APIs", () => {
     expect(res.body.name).toBe("macbook");
     expect(typeof res.body.name).toBe("string");
   });
-
-  //expect get products to return an array
-  // it("Should test that GET /products gives no error", async () => {
-  //   const response = await client.get("/products");
-
-  //   // expect(Array.isArray(response)).toBe(true);
-  // });
-
-  //expect delete product to have an empty body
-  // expect(res.body).toEqual({});
-  //expect put product to return an object
-  // expect(typeof res.body).toBe("object");
 });
+
+//expect get products to return an array
+// it("Should test that GET /products gives no error", async () => {
+//   const response = await client.get("/products");
+
+//   // expect(Array.isArray(response)).toBe(true);
+// });
+
+//expect delete product to have an empty body
+// expect(res.body).toEqual({});
+//expect put product to return an object
+// expect(typeof res.body).toBe("object");
